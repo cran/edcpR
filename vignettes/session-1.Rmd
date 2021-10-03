@@ -1,0 +1,39 @@
+---
+title: "Session 1"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{session-1}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r, echo = F}
+library(edcpR)
+```
+
+See the slides for this session [here](https://htmlpreview.github.io/?https://github.com/wardfont/edcpR/blob/master/course/session-1/knitted/session-1-document.html).
+
+In this session, you can explore the possibilities of R:
+
+- [Intro to R](https://ourcodingclub.github.io/2016/11/13/intro-to-r.html)
+- [Troubleshooting](https://ourcodingclub.github.io/2016/11/15/troubleshooting.html)  
+- [Etiquette](https://ourcodingclub.github.io/2017/04/25/etiquette.html)  
+- [Data visualisation](https://ourcodingclub.github.io/2017/01/29/datavis.html)  
+- [Data visualisation 2](https://ourcodingclub.github.io/2017/03/29/data-vis-2.html)  
+- [R Style guide](http://adv-r.had.co.nz/Style.html)
+
+Make sure you understand what is done in these tutorials.
+
+Once you understand the above, you can work on your first assignment. To access the assignment:
+
+```{r, echo=T, eval=F}
+vignette("assignment-1", package = "edcpR")
+```
+
